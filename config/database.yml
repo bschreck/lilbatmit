@@ -5,5 +5,5 @@ development:
   password: secret
   pool: 5
   timeout: 5000
-  database: lilbatmit_development
+  database: lilb_development
   encoding: utf8
