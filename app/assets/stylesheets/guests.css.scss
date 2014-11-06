@@ -10,6 +10,17 @@
 
 html {
   font: 40px 'Source Code Pro';
+
+}
+
+body {
+  background: image-url("killian.jpg") no-repeat center center fixed;
+ // background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
 }
 
 h1 {
@@ -25,10 +36,43 @@ p {
   font-size: 12px;
 }
 
-.header {
+.main-text {
+}
+.inner-main-text {
+  margin-top: 400px;
   text-align: center;
+  border-top: 10px solid #000000;
+  //border: 10px;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+.rsvp-form {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.sun {
+  position: relative;
+  width: 100px;
+  left: -200px;
+  display: inline;
+}
+.sun2 {
+  position: relative;
+  width: 100px;
+  left: 200px;
+  display: inline;
+}
+
+.detail {
+  display: inline;
 }
 
 .new_guest {
   text-align: center;
+}
+
+.head {
+  //left: 700px;
+  top: 200px;
+  position: absolute;
 }
