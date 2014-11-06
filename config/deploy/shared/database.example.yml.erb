@@ -1,0 +1,6 @@
+<%= fetch(:rails_env) %>:
+  adapter: mysql
+  database: <%= "#{fetch(:application)}_#{fetch(:rails_env)}" %>
+  socket:
+  username: deploy
+  password:
