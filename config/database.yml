@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  host: localhost
+  username: deploy
+  password: secret
+  pool: 5
+  timeout: 5000
+  database: lilbatmit_development
+  encoding: utf8
