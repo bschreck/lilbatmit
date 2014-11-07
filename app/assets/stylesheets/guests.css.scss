@@ -7,9 +7,14 @@
     font-family: 'Source Code Pro';
     font-weight: 400;
 }
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
 
 html {
-  font: 40px 'Source Code Pro';
+  font: 40px 'Ubuntu';
 
 }
 
@@ -46,9 +51,23 @@ p {
   background-color:rgba(0, 0, 0, 0.5);
 
 }
+
 .rsvp-form {
-  background-color:rgba(0, 0, 0, 0.5);
+  width: 400px;
+  padding-bottom: 200px;
+  //text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+.rsvp-form-inner {
+ // background-color:rgba(0, 0, 0, 0.5);
+ float: left;
+}
+
+.email {
+  width: 200px;
+}
+
 
 .sun {
   position: relative;
@@ -67,12 +86,11 @@ p {
   display: inline;
 }
 
-.new_guest {
-  text-align: center;
-}
+
 
 .head {
   //left: 700px;
   top: 200px;
   position: absolute;
 }
+

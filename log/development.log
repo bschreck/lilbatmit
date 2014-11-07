@@ -6760,3 +6760,1464 @@ Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 14:26:48 -0500
 
 
 Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 14:26:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 15:57:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (7.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.5ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 254ms (Views: 214.7ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 15:57:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.2ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 15:58:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 120ms (Views: 118.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 15:59:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 15:59:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 95ms (Views: 93.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:00:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 133ms (Views: 130.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:01:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 121ms (Views: 120.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:02:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:02:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:03:02 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:03:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.2ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:04:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.4ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 123ms (Views: 120.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:04:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.2ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:05:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:06:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 129ms (Views: 127.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:07:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:07:53 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.2ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:07:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.5ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 75ms (Views: 73.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:09:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:10:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.4ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:10:52 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:11:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:12:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.2ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:12:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:14:02 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 132ms (Views: 130.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:02 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:14:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.2ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:14:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.4ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 133ms (Views: 130.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:15:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 120ms (Views: 119.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:15:56 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:15:57 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:15:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.4ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 147ms (Views: 145.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:16:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:17:28 -0500
+Processing by GuestsController#index as HTML
+  [1m[35mGuest Load (0.3ms)[0m  SELECT `guests`.* FROM `guests`
+  Rendered guests/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 135ms (Views: 133.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:17:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+Processing by GuestsController#index as HTML
+  [1m[36mGuest Load (0.3ms)[0m  [1mSELECT `guests`.* FROM `guests`[0m
+  Rendered guests/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-06 16:17:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddInfoToGuests (20141107045713)
+  [1m[35m (92.6ms)[0m  ALTER TABLE `guests` DROP `student`
+  [1m[36m (36.8ms)[0m  [1mALTER TABLE `guests` ADD `student` bool[0m
+  [1m[35m (28.6ms)[0m  ALTER TABLE `guests` ADD `zip` int(11)
+  [1m[36m (23.0ms)[0m  [1mALTER TABLE `guests` ADD `first_name` varchar(255)[0m
+  [1m[35m (31.0ms)[0m  ALTER TABLE `guests` ADD `last_name` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (11.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20141107045713')
+  [1m[36m (11.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.9ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 176ms (Views: 138.4ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:02:40 -0500
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"Ben", "last_name"=>"Schreck", "zip"=>"91401", "student"=>"1", "email"=>"bsd@fake.com"}, "commit"=>"I'm coming!"}
+Unpermitted parameters: zip
+Unpermitted parameters: zip
+  [1m[35mGuest Load (18.3ms)[0m  SELECT  `guests`.* FROM `guests`  WHERE `guests`.`email` = 'bsd@fake.com'  ORDER BY `guests`.`id` ASC LIMIT 1
+Unpermitted parameters: zip
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `guests` (`created_at`, `email`, `first_name`, `last_name`, `student`, `updated_at`) VALUES ('2014-11-07 05:02:59', 'bsd@fake.com', 'Ben', 'Schreck', 1, '2014-11-07 05:02:59')
+  [1m[36m (4.8ms)[0m  [1mCOMMIT[0m
+  Rendered guests/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 55.0ms | ActiveRecord: 23.5ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:02:59 -0500
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"Ben", "last_name"=>"Schreck", "zip"=>"91401", "student"=>"1", "email"=>""}, "commit"=>"I'm coming!"}
+Unpermitted parameters: zip
+Unpermitted parameters: zip
+  [1m[35mGuest Load (0.3ms)[0m  SELECT  `guests`.* FROM `guests`  WHERE `guests`.`email` = ''  ORDER BY `guests`.`id` ASC LIMIT 1
+Unpermitted parameters: zip
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `guests` (`created_at`, `email`, `first_name`, `last_name`, `student`, `updated_at`) VALUES ('2014-11-07 05:03:07', '', 'Ben', 'Schreck', 1, '2014-11-07 05:03:07')
+  [1m[36m (11.3ms)[0m  [1mCOMMIT[0m
+  Rendered guests/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 59.7ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:03:07 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:03:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:03:08 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:03:08 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:03:08 -0500
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 00:06:07 -0500
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"Ben", "last_name"=>"Schreck", "zip"=>"91401", "student"=>"1", "email"=>""}, "commit"=>"I'm coming!"}
+Unpermitted parameters: zip
+Unpermitted parameters: zip
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 00:06:07 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 83ms (Views: 77.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:06:08 -0500
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 00:06:10 -0500
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"", "last_name"=>"", "zip"=>"", "student"=>"0", "email"=>""}, "commit"=>"I'm coming!"}
+Unpermitted parameters: zip
+Unpermitted parameters: zip
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 00:06:10 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:06:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 80ms (Views: 71.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 00:06:34 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 00:06:34 -0500

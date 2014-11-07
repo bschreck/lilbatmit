@@ -3,6 +3,7 @@
 <head>
   <title>RSVP: Lil B at MIT!</title>
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <% favicon_link_tag 'lilbheadicon.png' %>
@@ -31,11 +32,9 @@
         <h3 class="detail">Details</h3>
         <img class="sun2" src="<%=asset_path('based_sun.jpg')%>">
         <br>
-        <h4>First 300 to RSVP will get in, with preference to MIT students</h4>
-        <h4>This event is completely FREE! We're spreading love and knowledge to the world!</h4>
-        <h4>Friday, November 21 at 8PM</h4>
-        <h4>MIT Stata Center.</h4>
-        <h4>Room 32-123</h4>
+        <p>Lil B "The Basedgod" is coming to MIT on 11/21/2014 for a guest lecture brought to you by the Black Student Union. RSVP below for a chance to be selected to attend the lecture. A confirmation email with the event specifics will be sent on 11/17/2014 if you are selected. We anticipate a lot of entries and priority will be given to MIT students. MIT Students need to RSVP using their mit.edu address for their RSVP to count.</p>
+        <p class="alert"><%= alert %></p>
+        <%= yield %>
       </div>
     </div>
 
@@ -43,8 +42,6 @@
 
   </div>
 
-  <p class="alert"><%= alert %></p>
-  <%= yield %>
 
 </body>
 </html>

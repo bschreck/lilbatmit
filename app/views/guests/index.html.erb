@@ -1,34 +1,29 @@
 <div class="rsvp-form">
+<div class="rsvp-form-inner">
 <%= form_for @guest, controller: "guests", url: {action: "rsvp"}, class: "rsvp-form" do |f|%>
 
-  <p>
-  <%= f.label(:mit_student, "I am currently an MIT student") %>
-  </p>
-  <p>
-  <%= f.radio_button(:student, "mit") %>
-  </p>
-  <p>
-  <%= f.label(:student, "I am currently a student at a different college or university") %>
-  </p>
-  <p>
-  <%= f.radio_button(:student, "student") %>
-  </p>
-  <p>
-  <%= f.label(:student, "I am not currently a student.") %>
-  </p>
-  <p>
-  <%= f.radio_button(:student, "other") %>
-  </p>
+
 
   <p>
-  <%= label_tag(:email, "Email Address") %>
+  <%= f.text_field(:first_name, :class => "first_name", :placeholder => "First Name") %>
   </p>
   <p>
-  <%= f.text_field(:email) %>
+  <%= f.text_field(:last_name, :class => "last_name", :placeholder => "Last Name") %>
+  </p>
+  <p>
+  <%= f.text_field(:zip, :class => "zip", :placeholder => "Zip Code") %>
+  </p>
+  <p>
+  <%= f.check_box(:student) %>
+  <%= f.label(:student, "Student?") %>
+  </p>
+  <p>
+  <%= f.text_field(:email, :class => "email", :placeholder => "Email Address") %>
   </p>
   <p>
   <%= f.submit("I'm coming!") %>
   </p>
 
 <%end%>
+</div>
 </div>
