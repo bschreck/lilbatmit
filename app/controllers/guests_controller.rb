@@ -63,7 +63,7 @@ class GuestsController < ApplicationController
     end
 
     gb = Lilbatmit::Application::GB
-    lilb_list_id = "fa3d22a183"
+    lilb_list_id = "f10b99bd98"
     json_response = gb.lists.subscribe({:id => lilb_list_id, :email => {:email => email}, :merge_vars => {:FNAME => first, :LNAME => last, :ZIP => zip}, :double_optin => false})
     puts json_response
 
