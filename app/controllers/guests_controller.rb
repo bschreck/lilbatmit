@@ -15,6 +15,7 @@ class GuestsController < ApplicationController
         @new_guest = Guest.new(rsvp_params)
         if @new_guest.save
           status = add_to_mailing_list
+          Rails.logger.info "MAILING LIST STATUS: #{status}"
           if status[:status] == "subscribed"
             render :show
           else
