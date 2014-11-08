@@ -15,10 +15,10 @@ class GuestsController < ApplicationController
         @new_guest = Guest.new(rsvp_params)
         if @new_guest.save
           status = add_to_mailing_list
-          if status["status"] == "subscribed"
-            render :show, status: status
+          if status[:status] == "subscribed"
+            render :show
           else
-            if status["reason"] == "old_email"
+            if status[:reason] == "old_email"
               flash.alert = "Error: Email exists"
             else
               flash.alert = "Error: Unable to process RSVP"
@@ -65,6 +65,7 @@ class GuestsController < ApplicationController
     gb = Lilbatmit::Application::GB
     lilb_list_id = "fa3d22a183"
     json_response = gb.lists.subscribe({:id => lilb_list_id, :email => {:email => email}, :merge_vars => {:FNAME => first, :LNAME => last, :ZIP => zip}, :double_optin => false})
+    puts json_response
 
     if json_response.has_key?("email") and json_response["email"] == rsvp_params["email"] and
         json_response.has_key?("euid") and json_response.has_key?("leid")
