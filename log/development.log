@@ -8620,3 +8620,120 @@ Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 22:43:50 -0500
 
 
 Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 22:43:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 115ms (Views: 95.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+
+
+Started GET "/assets/killian.jpg" for 127.0.0.1 at 2014-11-07 22:56:47 -0500
+  [1m[36mSQL (1.8ms)[0m  [1mDELETE FROM `guests`[0m
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 22:57:16 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"Ben", "last_name"=>"Schreck", "zip"=>"02215", "student"=>"1", "email"=>"bschreck@mit.edu"}, "commit"=>"I'm coming!"}
+  [1m[35mGuest Load (0.3ms)[0m  SELECT  `guests`.* FROM `guests`  WHERE `guests`.`email` = 'bschreck@mit.edu'  ORDER BY `guests`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `guests` (`created_at`, `email`, `first_name`, `last_name`, `student`, `updated_at`, `zip`) VALUES ('2014-11-08 03:57:16', 'bschreck@mit.edu', 'Ben', 'Schreck', 1, '2014-11-08 03:57:16', 2215)
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 662ms
+
+NoMethodError (undefined method `to_i' for {:status=>"error", :reason=>"old_email"}:Hash):
+  app/controllers/guests_controller.rb:18:in `rsvp'
+
+
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started POST "/rsvp" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+Processing by GuestsController#rsvp as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GpdUyomMjQxpNlRO7SrRb/k/2xfz03HeDVJc34DEq1w=", "guest"=>{"first_name"=>"Ben", "last_name"=>"Schreck", "zip"=>"02215", "student"=>"1", "email"=>"bschreck@mit.edu"}, "commit"=>"I'm coming!"}
+  [1m[35mGuest Load (0.3ms)[0m  SELECT  `guests`.* FROM `guests`  WHERE `guests`.`email` = 'bschreck@mit.edu'  ORDER BY `guests`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/lilbhead.png" for 127.0.0.1 at 2014-11-07 23:00:36 -0500
+
+
+Started GET "/assets/based_sun.jpg" for 127.0.0.1 at 2014-11-07 23:00:36 -0500

@@ -9,15 +9,24 @@ class GuestsController < ApplicationController
     if email != "" and student != ""
       exists = Guest.where(email: email).first
       if exists
-        flash.alert = "Email exists"
+        flash.alert = "Error: Email exists"
         redirect_to action: :index, guest: @new_guest
       else
         @new_guest = Guest.new(rsvp_params)
         if @new_guest.save
-          puts add_to_mailing_list
-          render :show
+          status = add_to_mailing_list
+          if status["status"] == "subscribed"
+            render :show, status: status
+          else
+            if status["reason"] == "old_email"
+              flash.alert = "Error: Email exists"
+            else
+              flash.alert = "Error: Unable to process RSVP"
+            end
+            redirect_to action: :index, guest: @new_guest
+          end
         else
-          flash.now[:error] = "Error saving rsvp"
+          flash.alert = "Error: Unable to process RSVP"
           redirect_to action: :index, guest: @new_guest
         end
       end
@@ -30,6 +39,8 @@ class GuestsController < ApplicationController
 
   def over
   end
+
+
 
 
   private
