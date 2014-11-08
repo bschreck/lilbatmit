@@ -19,6 +19,9 @@ module Lilbatmit
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-
+    secrets.mailchimp_api_key = YAML.load(ERB.new(File.read("#{Rails.root}/config/secrets.yml")).result)["mailchimp_api_key"]
+    Gibbon::API.timeout = 15
+    Gibbon::API.throws_exceptions = false
+    GB = Gibbon::API.new(secrets.mailchimp_api_key)
   end
 end
