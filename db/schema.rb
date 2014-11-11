@@ -11,13 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141107045713) do
+ActiveRecord::Schema.define(version: 20141111173045) do
 
   create_table "guests", force: true do |t|
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "student"
     t.integer  "zip"
     t.string   "first_name"
     t.string   "last_name"

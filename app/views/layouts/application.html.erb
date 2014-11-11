@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>RSVP: Lil B at MIT!</title>
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <% favicon_link_tag 'lilbheadicon.png' %>
+  <% favicon_link_tag 'lilbheadelegant_icon.jpg' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -14,27 +19,20 @@
 
   <div class="header">
 
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
-    <img class="head" src="<%=asset_path('lilbhead.png')%>">
+
     <div class="main-text">
+      <img class="header-text" src="<%=asset_path('placeholder_text.jpg')%>"></img>
+      <div class="bottom">
       <div class="inner-main-text">
-        <h1>Lil B Lecture at MIT!!!</h1>
-        <h3>The first rapper to write and publish a book at age 19 is coming to MIT to give a highly anticipated lecture on Based Living.</h3>
-        <img class="sun" src="<%=asset_path('based_sun.jpg')%>">
-        <h3 class="detail">Details</h3>
-        <img class="sun2" src="<%=asset_path('based_sun.jpg')%>">
-        <br>
-        <p>Lil B "The Basedgod" is coming to MIT on 11/21/2014 for a guest lecture brought to you by the Black Student Union. RSVP below for a chance to be selected to attend the lecture. A confirmation email with the event specifics will be sent on 11/17/2014 if you are selected. We anticipate a lot of entries and priority will be given to MIT students. MIT Students need to RSVP using their mit.edu address for their RSVP to count.</p>
-        <p class="alert"><%= alert %></p>
-        <%= yield %>
+        <p class="p1">Lil B "The Based God" is coming to MIT on 11/21/2014 for a guest lecture.
+        RSVP below for a chance to be selected to attend the lecture.
+        A confirmation email with the event specifics will be sent on 11/17/2014 if you are selected.
+        </p>
+        <p class="p2">
+        Although we'd love to give everyone the chance to hear Lil B speak, we can only provide MIT students with tickets, with preference to undergraduates.
+        For this reason, we will only count those RSVP's with an mit.edu email address.</p>
+      </div>
+      <%= yield %>
       </div>
     </div>
 

@@ -4,12 +4,11 @@ class GuestsController < ApplicationController
   end
 
   def rsvp
-    student = rsvp_params[:student]
     email = rsvp_params[:email]
-    if email != "" and student != ""
+    if email != "" and email[-7..-1] == "mit.edu"
       exists = Guest.where(email: email).first
       if exists
-        flash.alert = "Error: Email exists"
+        flash.alert = "Error: Email already submitted"
         redirect_to action: :index, guest: @new_guest
       else
         @new_guest = Guest.new(rsvp_params)
@@ -32,7 +31,7 @@ class GuestsController < ApplicationController
         end
       end
     else
-      flash.alert = "Student and Email are required fields."
+      flash.alert = "Student and Email are required fields. Check that you're using an mit.edu email address"
       redirect_to action: :index, guest: @new_guest
     end
 
@@ -46,7 +45,7 @@ class GuestsController < ApplicationController
 
   private
   def rsvp_params
-    params.require(:guest).permit(:student, :email, :first_name, :last_name, :zip)
+    params.require(:guest).permit(:email, :first_name, :last_name, :zip)
   end
 
   def add_to_mailing_list

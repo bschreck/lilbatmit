@@ -29,7 +29,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring', '~> 1.1.3',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
+
+gem 'bootstrap_form'
 
 
 # Use debugger

@@ -1,9 +1,9 @@
-<div class="rsvp-form">
 <div class="rsvp-form-inner">
-<%= form_for @guest, controller: "guests", url: {action: "rsvp"}, class: "rsvp-form" do |f|%>
+<%= bootstrap_form_for @guest, controller: "guests", url: {action: "rsvp"}, class: "rsvp-form" do |f|%>
 
 
 
+  <p class="alert"><%= alert %></p>
   <p>
   <%= f.text_field(:first_name, :class => "first_name", :placeholder => "First Name") %>
   </p>
@@ -14,10 +14,6 @@
   <%= f.text_field(:zip, :class => "zip", :placeholder => "Zip Code") %>
   </p>
   <p>
-  <%= f.check_box(:student) %>
-  <%= f.label(:student, "Student?") %>
-  </p>
-  <p>
   <%= f.text_field(:email, :class => "email", :placeholder => "Email Address") %>
   </p>
   <p>
@@ -25,5 +21,4 @@
   </p>
 
 <%end%>
-</div>
 </div>
