@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= requre bootstrap-sprockets
 //= require jquery_ujs
 //= require guests
 //= require_self

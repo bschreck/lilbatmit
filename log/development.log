@@ -14901,3 +14901,205 @@ Started GET "/assets/bsu.png" for 127.0.0.1 at 2014-11-12 01:14:17 -0500
 
 Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 01:14:17 -0500
   [1m[36mSQL (2.2ms)[0m  [1mDELETE FROM `guests`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 01:20:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (21.4ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sockets.
+Load paths:
+  /Users/Ben/Dropbox/lilbatmit/app/assets/fonts
+  /Users/Ben/Dropbox/lilbatmit/app/assets/images
+  /Users/Ben/Dropbox/lilbatmit/app/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/app/assets/stylesheets
+  /Users/Ben/Dropbox/lilbatmit/vendor/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/vendor/assets/stylesheets
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap_form-2.2.0/app/assets/stylesheets
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/turbolinks-2.2.3/lib/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap-sass-3.3.0.1/assets/stylesheets
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap-sass-3.3.0.1/assets/javascripts
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap-sass-3.3.0.1/assets/fonts
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap-sass-3.3.0.1/assets/images
+  /Users/Ben/Dropbox/lilbatmit/.bundle/gems/bootstrap-sass-3.3.0.1/assets/stylesheets
+  (in /Users/Ben/Dropbox/lilbatmit/app/assets/stylesheets/application.css.scss:20)):
+     9:   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500' rel='stylesheet' type='text/css'>
+    10:   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+    11: 
+    12:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    13:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    14:   <% favicon_link_tag 'lilbheadelegant_icon.jpg' %>
+    15:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.css.scss:20
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2454410465252493736_70140867016360'
+
+
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 01:22:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 2667ms (Views: 2655.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/lilbatmit_logo.png" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/sase.png" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/bsu.png" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 01:22:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 01:22:44 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1745ms (Views: 1743.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/guests.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/lilbatmit_logo.png" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/sase.png" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/bsu.png" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 01:22:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 01:23:04 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (Invalid CSS after "...ootstrap_forms"": expected selector or at-rule, was "@import "guests..."
+  (in /Users/Ben/Dropbox/lilbatmit/app/assets/stylesheets/application.css.scss:21)):
+     9:   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500' rel='stylesheet' type='text/css'>
+    10:   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+    11: 
+    12:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    13:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    14:   <% favicon_link_tag 'lilbheadelegant_icon.jpg' %>
+    15:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.css.scss:21
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3454074498951533242_70209929230020'
+
+
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 01:23:15 -0500
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1773ms (Views: 1771.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/lilbatmit_logo.png" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/sase.png" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/bsu.png" for 127.0.0.1 at 2014-11-12 01:23:17 -0500
+
+
+Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 01:23:17 -0500

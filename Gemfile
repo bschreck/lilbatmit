@@ -33,6 +33,8 @@ gem 'spring', '~> 1.1.3',        group: :development
 
 gem 'bootstrap_form'
 
+gem 'bootstrap-sass', '~> 3.3.0'
+gem 'autoprefixer-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]

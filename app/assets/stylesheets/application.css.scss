@@ -12,10 +12,9 @@
  *= require jquery-ui-1
  *= require jquery-ui.structure
  *= require jquery-ui.theme.css
- *= require bootstrap.min.css
- *= require rails_bootstrap_forms
- *= require guests.css.scss
  *= require_self
  */
-
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "rails_bootstrap_forms";
+@import "guests.css.scss";
