@@ -15703,3 +15703,43 @@ Started GET "/assets/sase.png" for 127.0.0.1 at 2014-11-12 09:46:47 -0500
 
 
 Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 09:46:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GuestsController#index as HTML
+  Rendered guests/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 154ms (Views: 141.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/jquery-ui.structure.css?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/jquery-ui.theme.css?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/jquery-ui-1.css?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/guests.js?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/lilbatmit_logo.png" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/sase.png" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
+
+
+Started GET "/assets/MIT_Killian_Court_hologram.jpg" for 127.0.0.1 at 2014-11-12 14:37:19 -0500
