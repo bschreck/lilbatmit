@@ -10,6 +10,7 @@
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <% favicon_link_tag 'lilbheadelegant_icon.jpg' %>
   <%= csrf_meta_tags %>
@@ -31,6 +32,7 @@
         <p class="p2">
         Although we'd love to give everyone the chance to hear Lil B speak, we can only provide MIT students with tickets, with preference to undergraduates.
         For this reason, we will only count those RSVP's with an mit.edu email address.</p>
+      <p class="p3">Contact lilbatmit@mit.edu with any questions or concerns</p>
       </div>
       <img class="sase-logo" src="<%=asset_path('sase.png')%>"></img>
       <img class="bsu-logo" src="<%=asset_path('bsu.png')%>"></img>
