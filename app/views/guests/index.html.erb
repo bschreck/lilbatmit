@@ -1,20 +1,17 @@
 <div class="rsvp-form-inner">
-<%= bootstrap_form_for @guest, controller: "guests", url: {action: "rsvp"}, class: "rsvp-form" do |f|%>
+<%= bootstrap_form_for @guest, controller: "guests", url: {action: "rsvp"}, :html => {:class => ".form-group-sm"} do |f|%>
 
 
 
   <p class="alert"><%= alert %></p>
   <p>
-  <%= f.text_field(:first_name, :class => "first_name", :placeholder => "First Name") %>
+  <%= f.text_field(:first_name, :class => "first_name input-sm", hide_label: true, :placeholder => "First Name") %>
   </p>
   <p>
-  <%= f.text_field(:last_name, :class => "last_name", :placeholder => "Last Name") %>
+  <%= f.text_field(:last_name, :class => "last_name", hide_label: true, :placeholder => "Last Name") %>
   </p>
   <p>
-  <%= f.text_field(:zip, :class => "zip", :placeholder => "Zip Code") %>
-  </p>
-  <p>
-  <%= f.text_field(:email, :class => "email", :placeholder => "Email Address") %>
+  <%= f.email_field(:email, :class => "email", hide_label: true, :placeholder => "Email Address") %>
   </p>
   <p>
   <%= f.submit("I'm coming!") %>
